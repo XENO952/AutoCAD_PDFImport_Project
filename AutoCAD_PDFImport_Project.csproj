@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- References for AutoCAD 2025 (NET 8.0-based) from local SDK copy -->
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <Reference Include="AcMgd">
+      <HintPath>..\CDROM1\inc\AcMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcDbMgd">
+      <HintPath>..\CDROM1\inc\AcDbMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcCoreMgd">
+      <HintPath>..\CDROM1\inc\AcCoreMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="CDROM1\samples\**\*.cs" />
+    <!-- Ensure no duplicate entries for BatchProcessingCommands.cs and other .cs files if using SDK's default behavior -->
+    <!-- <Compile Include="Commands\SheetInfoCommands.cs" /> -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

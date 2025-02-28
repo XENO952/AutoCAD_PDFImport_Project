@@ -1,0 +1,5 @@
+C:\Projects\AutoCAD_PDFImport_Project\AutoCAD_PDFImport_Project\obj\Debug\net48\AutoCAD_PDFImport_Project.csproj.AssemblyReference.cache
+C:\Projects\AutoCAD_PDFImport_Project\AutoCAD_PDFImport_Project\obj\Debug\net48\AutoCAD_PDFImport_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\AutoCAD_PDFImport_Project\AutoCAD_PDFImport_Project\obj\Debug\net48\AutoCAD_PDFImport_Project.AssemblyInfoInputs.cache
+C:\Projects\AutoCAD_PDFImport_Project\AutoCAD_PDFImport_Project\obj\Debug\net48\AutoCAD_PDFImport_Project.AssemblyInfo.cs
+C:\Projects\AutoCAD_PDFImport_Project\AutoCAD_PDFImport_Project\obj\Debug\net48\AutoCAD_PDFImport_Project.csproj.CoreCompileInputs.cache
